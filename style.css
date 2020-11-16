@@ -52,7 +52,7 @@
 }
 .social_media{
     position: absolute;
-    left:350px;
+    left:300px;
     top:80%;
 }
 .social_media ul{
@@ -82,7 +82,7 @@
     }
     .social_media{
         position: absolute;
-        left:180px;
+        left:130px;
         top:80%;
     }
 
@@ -104,7 +104,7 @@
 }
 @media (max-width:540px){
     .profile_background{
-        height: 700px;
+        height: 780px;
     }
     .profile_img{
         top: 250px;
