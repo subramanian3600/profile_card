@@ -1,0 +1,75 @@
+
+#greet{
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+}
+.profile_background h3{
+    color: white;
+    padding: 20px;
+    margin: 5px;
+}
+.profile_background{
+    background-image: linear-gradient(to right bottom, #7c48c2, #2776e5, #0098f0, #00b4ea, #00ccdd, #1bd6d3, #44dec4, #69e5b3, #5de299, #5cde7a, #63d956, #70d323);
+    margin: 70px;
+    height: 500px;
+    position: relative;
+    border-radius: 10px;
+
+}
+.profile_img{
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    background-image:url('subramanian.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 150px;
+    left: 480px;
+    border: white 1px solid;
+}
+.profile_img h4{
+    text-align: center;
+    color: #fff;
+    font-family: 'Grandstander', cursive;    
+    margin-top:-80px;
+    margin-left: 8px;
+    font-size:30px;
+}
+.profile_img .profile{
+    text-align: center;
+    font-family: 'Grandstander', cursive;    
+    margin-top: 230px;
+    margin-left: 45px;
+    border:transparent 1px solid;
+    border-radius:15px;
+    height: 40px;
+    width: 120px;
+    background-image: linear-gradient(to left bottom, #4fc5f8, #47bbed, #3fb1e3, #37a7d8, #2f9dce, #239fcc, #15a0ca, #00a2c8, #00afcb, #00bcca, #00c8c4, #23d3bc);;
+    cursor: pointer;
+    color:white;
+}
+.social_media{
+    position: absolute;
+    left:350px;
+    top:80%;
+}
+.social_media ul{
+    list-style-type: none;
+    display: flex;
+}
+.social_media ul li{
+    padding: 10px;
+    margin: 6px;
+}
+.social_media a{
+    color: white;
+    font-size: 20px;
+    background-image: url(splash.png);
+    background-size: cover;
+    background-position: 50%;
+    font-weight: 500;
+}
+
