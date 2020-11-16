@@ -17,13 +17,13 @@
                  });
             function getDateTime(){    
             var h=new Date().getHours();
-            if(h>6 && h<12){
+            if(h>=6 && h<12){
                 var greeting='Morning';   
             }
-            if(h>12 && h<16){
+            if(h>=12 && h<16){
                 var greeting='Afternoon';
             }
-            if(h>16 && h<00){
+            if(h>=16 && h<00){
                 var greeting='Evening';   
             } 
             document.getElementById('greet').innerHTML=`Good ${greeting} !`;
