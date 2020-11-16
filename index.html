@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subramanian</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="subramanianicon.ico" type="image/icon type">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,400;0,900;1,100&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <script>
+            window.onload = ( function() {        
+                getDateTime();
+                 });
+            function getDateTime(){    
+            var h=new Date().getHours();
+            if(h>6 && h<12){
+                var greeting='Morning';   
+            }
+            if(h>12 && h<16){
+                var greeting='Afternoon';
+            }
+            if(h>16 && h<00){
+                var greeting='Evening';   
+            } 
+            document.getElementById('greet').innerHTML=`Good ${greeting} !`;
+            }
+        </script>
+        <div class="profile_background">
+            <h3>Hey ! Thank You for Visiting</h3>
+            <h4 id="greet"></h4>
+            <div class="profile_img">
+                <h4>Subramanian</h4>
+                <!--<a href="profile.html"><button href="profile.html" class="profile">
+                    View profile
+                </button></a>-->
+            </div>
+            <div class="social_media">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/svsubramanian3600/">LinkedIn</a></li>
+                    <li><a href="https://github.com/subramanian3600"> &nbsp;GitHub&nbsp; </a></li>
+                    <li><a href='https://www.instagram.com/subramanian_s_v/'> Instagram </a></li>
+                </ul>
+            </div>
+            </div>
+    </header>
+    
+</body>
+</html>
