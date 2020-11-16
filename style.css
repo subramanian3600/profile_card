@@ -124,6 +124,7 @@
 @media (max-width:424px){
     .profile_background{
         height: 700px;
+        margin:40px;
     }
     .profile_img{
         top: 300px;
@@ -150,6 +151,7 @@
 @media (max-width:372px){
     .profile_background{
         height: 700px;
+        margin:40px;
     }
     .profile_img{
         top: 300px;
