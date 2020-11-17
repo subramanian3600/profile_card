@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 #greet{
     font-size: 20px;
     letter-spacing: 2px;
     padding: 20px;
     margin: 5px;
     color: white;
+    font-family: 'Quicksand', sans-serif;
 }
 .profile_background h3{
     color: white;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
     padding: 20px;
     margin: 5px;
 }
@@ -70,6 +74,7 @@
     background-size: cover;
     background-position: 50%;
     font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
 }
 
 @media (max-width:960px){
