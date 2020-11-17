@@ -114,6 +114,9 @@
     }
 }
 @media (max-width:540px){
+    *{
+        margin:2px;
+    }
     .profile_background{
         height: 780px;
     }
@@ -132,7 +135,7 @@
         flex-direction:column;
     }
 }
-@media (max-width:430px){
+@media (max-width:480px){
     .profile_background{
         height: 700px;
         margin:40px;
@@ -159,7 +162,7 @@
         font-size: 12px;
     }
 }
-@media (max-width:372px){
+@media (max-width:360px){
     .profile_background{
         height: 700px;
         margin:40px;
