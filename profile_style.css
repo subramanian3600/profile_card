@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Grandstander:ital,wght@0,100;0,300;1,200;1,600&family=Lobster&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.whole_container{
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    width: 100%;
+    height: 100vh;
+}
+.portfolio{
+    color: aliceblue;
+    font-size: 4rem;
+    padding: 18px;
+    font-family: 'Architects Daughter', cursive;
+}
+.container{
+    margin: 0px 20px;
+    align-self: auto;
+    background-color: yellowgreen;
+    height: 80%;
+}
+.profile_box{
+    height: 28%;
+    margin:10px;
+    top: 10px;
+    background-color: aquamarine;
+}
+.name{
+    margin: 10px;
+    padding: 10px;
+    color: brown;
+    font-size: 1.8rem;
+    font-family: 'Lobster', cursive;
+}
+.contact{
+    margin:10px;
+    padding: 10px;
+    color: brown;
+    font-size: 1rem;
+    font-family: 'Lobster', cursive;
+}
+.contact p{
+    margin-top: 2px;
+    color: black;
+    font-size: 0.9rem;
+    font-family: 'Grandstander', cursive;
+}
+.profile_box_image{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+.profile_box_image img{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-color: transparent;
+
+}
+
+
