@@ -23,8 +23,16 @@
     border-radius: 10px;
     color: black;
     font-family: 'Architects Daughter', cursive;
-    background: rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.2);
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    font-weight: 300;
+
+}
+.back_to_index_link:hover{
+    background-color: rgba(255,255,255,0.4);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
 }
 .container{
     margin: 0px 20px;
@@ -37,6 +45,8 @@
     margin:10px;
     top: 10px;
     background-color: aquamarine;
+    border-radius: 10px;
+
 }
 .name{
     margin: 10px;
