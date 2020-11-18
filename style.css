@@ -22,9 +22,9 @@
     background: #b92b27;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to  top right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    margin: 70px;
+    margin: 20px 35px;
     height: 900px;
-    width: 70%;
+    width: 82%;
     position: relative;
     border-radius: 10px;
 
@@ -70,7 +70,7 @@
 }
 .social_media{
     position: absolute;
-    left:10%;
+    left:15%;
     top:70%;
 }
 .social_media ul{
@@ -89,8 +89,7 @@
     font-size: 20px;
     background-image: url(splash.png);
     background-size: cover;
-    background-position: 50%;
+    background-position: 60%;
     font-weight: 500;
     font-family: 'Quicksand', sans-serif;
 }
-
