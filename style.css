@@ -93,3 +93,36 @@
     font-weight: 500;
     font-family: 'Quicksand', sans-serif;
 }
+@media(min-width:500px){
+    .profile_background{
+        margin: 20px 55px;
+    }
+    .profile_img{
+        left: 40%;
+    }
+    .social_media{
+        left:30%;
+
+    }
+
+}
+@media(min-width:900px){
+    .profile_background{
+        margin: 20px 90px;
+        height: 500px;
+    }
+    .profile_img{
+        top: 40%;
+        left: 45%;
+    }
+    .social_media{
+        left:10%;
+        top:80%;
+    }
+    .social_media ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+}
