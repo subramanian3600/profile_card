@@ -6,11 +6,31 @@
     <title>PROFILE</title>
     <link rel="stylesheet" href="profile_style.css">
     <link rel="icon" href="subu_crop.png">
+    <script src="myscript.js">
+
+    </script>
 </head>
 <body>
     <header>
         <section class="whole_container">
             <h1 class="portfolio">My Portfolio</h1>
+            <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+            <script type="text/javascript">
+                document.getElementById("audio_btn").addEventListener("click", function(){
+                    var audio = document.getElementById('myAudio');
+                    if(this.className == 'is-playing'){
+                        this.className = "";
+                        this.innerHTML = "Play"
+                        audio.pause();
+                    }else{
+                        this.className = "is-playing";
+                        this.innerHTML = "Pause";
+                        audio.play();
+                    } 
+                });
+            </script>
+            <audio src="ammil.mp3"  volume="0.5" autoplay="true" loop id="myAudio"></audio>
+            <button type="button" class="audio_btn"></button>
             <div class="back_to_index">
             <a class="back_to_index_link" href="index.html"><- Back to Home page</a><br><br>
             </div>
