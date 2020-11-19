@@ -93,9 +93,8 @@ html{
     height: 20%;
     margin:10px;
     top: 10px;
-    background: linear-gradient(to right,#D3D3D3,#C0C0C0,#A9A9A9,#C0C0C0,#D3D3D3);
+    border: black solid 1px;
     border-radius: 10px;
-
 }
 .name{
     margin: 10px;
