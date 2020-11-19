@@ -6,31 +6,32 @@
     <title>PROFILE</title>
     <link rel="stylesheet" href="profile_style.css">
     <link rel="icon" href="subu_crop.png">
-    <script src="script.js">
+    <script src="profile_script.js">
 
     </script>
 </head>
 <body>
     <header>
+        <div class="loader_background">
+            <div class="loader">
+
+            </div>
+        </div>
         <section class="whole_container">
             <h1 class="portfolio">My Portfolio</h1>
             <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
             <script type="text/javascript">
-                document.getElementById("audio_btn").addEventListener("click", function(){
-                    var audio = document.getElementById('myAudio');
-                    if(this.className == 'is-playing'){
-                        this.className = "";
-                        this.innerHTML = "Play"
-                        audio.pause();
-                    }else{
-                        this.className = "is-playing";
-                        this.innerHTML = "Pause";
-                        audio.play();
-                    } 
-                });
+                function stop(){
+                    let audio=document.querySelector('#myAudio');
+                    let btn=document.querySelector('#stop_text');
+                    audio.pause();
+                    alert("audio paused");
+                    btn.style.display='none'
+                }
             </script>
-            <audio src="ammil.mp3" muted volume="0.5" autoplay="true" loop id="myAudio"></audio>
-            <button type="button" class="audio_btn"></button>
+            <audio src="ammil.mp3"  volume="0.5" autoplay="true" loop id="myAudio"></audio>
+            <p id="stop_text" style= 'color: rgb(38, 96, 150);position:absolute;top: 8px ;display:contents ;right: 30px;font-family:monospace'>To stop bg music</p>
+            <button type="button" class="audio_btn" onclick="stop()"></button>
             <div class="back_to_index">
             <a class="back_to_index_link" href="index.html"><- Back to Home page</a><br><br>
             </div>
@@ -46,8 +47,14 @@
                         <p>Kanyakumari</p>
                     </div>
                 </div>
+                <script>
+                    function soon(){
+                        let email=document.querySelector('.email_button');
+                        alert("Thankyou but it will be soon available");
+                    }
+                </script>
                 <div class="contact_buttons">
-                    <button class="email_button" type="button">Email Me</button>
+                    <button onclick=soon() class="email_button" type="button">Email Me</button>
                 </div>
 
 
