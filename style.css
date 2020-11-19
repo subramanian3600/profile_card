@@ -33,7 +33,7 @@
     width:120px;
     height: 120px;
     border-radius: 60px;
-    background-image:url('subramanian.jpg');
+    background-image:url('img/subramanian.jpg');
     background-size: cover;
     position: absolute;
     top: 40%;
@@ -87,7 +87,7 @@
     text-decoration: none;
     color: white;
     font-size: 20px;
-    background-image: url(splash.png);
+    background-image: url(img/splash.png);
     background-size: cover;
     background-position: 60%;
     font-weight: 500;
