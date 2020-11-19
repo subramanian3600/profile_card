@@ -4,6 +4,9 @@
     padding: 0;
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 .loader_background{
     position: fixed;
     top: 0;
@@ -43,7 +46,7 @@
     padding: 0;
     background-color: rgba(0, 0, 0, 0.863);
     width: 100%;
-    height: 100vh;
+    height:1200px;;
 }
 .portfolio{
     color: aliceblue;
@@ -87,7 +90,7 @@
     height: 80%;
 }
 .profile_box{
-    height: 28%;
+    height: 20%;
     margin:10px;
     top: 10px;
     background: linear-gradient(to right,#D3D3D3,#C0C0C0,#A9A9A9,#C0C0C0,#D3D3D3);
@@ -106,11 +109,13 @@
     padding: 10px;
     color: brown;
     font-size: 1rem;
-    font-family: 'Lobster', cursive;
+    font-weight: 600;
+    font-family: 'Grandstander', cursive;
 }
 .address p{
     margin-top: 5px;
     color: black;
+    font-weight: 300;
     font-size: 0.9rem;
     font-family: 'Grandstander', cursive;
 }
@@ -145,6 +150,17 @@
     position: absolute;
     transform: translateX(180%);
 }
+.laptop {
+    margin:0px 10px;
+}
+.laptop img{
+    width: 360px;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 .details ul{
     display: flex;
     flex-direction: row;
@@ -160,27 +176,28 @@
     letter-spacing: 1px;
 }
 .education{
-    height: 280px;
+    height: 300px;
     margin:10px;
     background: linear-gradient(to right,#D3D3D3,#C0C0C0,#A9A9A9,#C0C0C0,#D3D3D3);
     border-radius: 10px;
 }
 .edu_heading{
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
     padding: 5px;
     color: black;
-    font-family: 'Grandstander', cursive;
+    font-family: 'roboto';
 }
 .school{
     font-size: 16px;
     color: black;
-    font-family: 'Grandstander', cursive;
+    font-family: 'roboto';
     padding: 0 10px;
 }
 .year{
     font-size: 16px;
     color: black;
-    font-family: 'Grandstander',cursive;
+    font-family: 'roboto';
     padding:10px;
 }
 
