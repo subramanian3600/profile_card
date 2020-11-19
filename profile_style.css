@@ -156,6 +156,7 @@
 }
 .details ul li a{
     color: white;
+    text-decoration: none;
     font-family: 'Architects Daughter', cursive;
     letter-spacing: 1px;
 }
