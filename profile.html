@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROFILE</title>
     <link rel="stylesheet" href="profile_style.css">
-    <link rel="icon" href="subu_crop.png">
+    <link rel="icon" href="img/subu_crop.png">
     <script src="profile_script.js">
 
     </script>
@@ -24,12 +24,14 @@
                 function stop(){
                     let audio=document.querySelector('#myAudio');
                     let btn=document.querySelector('#stop_text');
+                    let button=document.querySelector('.audio_btn');
                     audio.pause();
-                    alert("audio paused");
-                    btn.style.display='none'
+                    alert("audio stopped");
+                    btn.style.display='none';
+                    button.style.display='none';
                 }
             </script>
-            <audio src="ammil.mp3"  volume="0.5" autoplay="true" loop id="myAudio"></audio>
+            <audio src="ammil.mp3" muted volume="0.5" autoplay="true" loop id="myAudio"></audio>
             <p id="stop_text" style= 'color: rgb(38, 96, 150); position:absolute; top: 8px ; display:block ; right: 30px; font-family:monospace'>To stop bg music</p>
             <button type="button" class="audio_btn" onclick="stop()"></button>
             <div class="back_to_index">
@@ -55,6 +57,10 @@
                 </script>
                 <div class="contact_buttons">
                     <button onclick=soon() class="email_button" type="button">Email Me</button>
+                </div>
+                <div class="education">
+                    <h4>Education:</h4>
+                    
                 </div>
 
 
