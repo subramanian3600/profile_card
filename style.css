@@ -160,3 +160,34 @@
     }
 
 }
+@media(min-width:1200px){
+    .profile_background{
+        margin: 30px;
+        height:90vh;
+        width:95%;
+    }
+    .profile_img{
+        top: 40%;
+        left: 42%;
+        width:200px;
+        height:200px;
+        border-radius: 100px;
+    }
+    .profile_img h4{
+        left: 0%;
+
+    }
+    .profile_img .profile{
+        left:20%;
+    }
+    .social_media{
+        left:20%;
+        top:80%;
+    }
+    .social_media ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+}
