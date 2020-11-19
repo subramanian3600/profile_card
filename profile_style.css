@@ -151,6 +151,8 @@ html{
     transform: translateX(180%);
 }
 .laptop {
+    width: 360px;
+    height: 300px;
     margin:0px 10px;
 }
 .laptop img{
