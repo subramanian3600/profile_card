@@ -1,5 +1,3 @@
-alert("Portfolio is under construction if you want continue");
-
 window.addEventListener('load',()=>{
     let preloader=document.querySelector('.loader');
     let bg=document.querySelector('.loader_background')
