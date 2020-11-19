@@ -148,7 +148,6 @@
 .details ul{
     display: flex;
     flex-direction: row;
-    text-decoration: none;
 }
 .details ul li{
     list-style-type: none;
