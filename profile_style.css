@@ -158,6 +158,10 @@ html{
     object-fit: cover;
     border-radius: 10px;
 }
+.laptop a{
+    color: violet;
+    text-decoration: none;
+}
 .heading{
     width: 300px;
     padding: 1px;
@@ -224,8 +228,33 @@ html{
 .tech ul li{
     text-align: center;
 }
+#skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 #skills img{
     padding: 10px;
     width: 50px;
     height: 50px;
+}
+.code{
+    width: 360px;
+    height: 300px;
+    margin:0px 10px;
+}
+.code img{
+    width: 360px;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.code a{
+    color: violet;
+    text-decoration: none;
+}
+.languages ul{
+    display: flex;
+    justify-content: center;
 }
