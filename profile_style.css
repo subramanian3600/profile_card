@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Grandstander:ital,wght@0,100;0,300;1,200;1,600&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+
 
 *{
     padding: 0;
@@ -192,7 +194,6 @@ html{
 .education{
     height: 300px;
     margin:10px;
-    
     border-radius: 10px;
 }
 .edu_heading{
@@ -261,6 +262,17 @@ html{
 .languages ul{
     display: flex;
     justify-content: center;
+}
+.languages ul li a{
+    font-family: 'Kavivanar', cursive;
+}
+.languages ul li:first-child{
+    font-size: 20px;
+    font-weight: 400;
+}
+.languages ul li :last-child{
+    font-size: 30px;
+    font-weight: 400;
 }
 
 
@@ -395,7 +407,145 @@ html{
         object-fit: cover;
         object-position: 50% 78%;
     }
-
-
-
+}
+@media (min-width:1200px){
+    .portfolio{
+        text-align: center;
+    }
+    .profile_box{
+        height: 22%;
+        margin:10px;
+        top: 10px;
+        border: black solid 2px;
+        border-radius: 20px;
+    }
+    .name{
+        font-size: 40px;
+    }
+    .address{
+        font-size: 30px;
+    }
+    .address p{
+        font-size: 25px;
+    }
+    .details ul li a{
+        color: black;
+        font-size: 25px;
+        text-decoration: none;
+        font-family: 'Architects Daughter', cursive;
+        letter-spacing: 2px;
+    }
+    .contact_buttons{
+        width: 100%;
+        height: 40px;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+    .email_button{
+        position: absolute;
+        left: 50%;
+        color: black;
+        background-color: rgba(255,255,255,0.2);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+        width: 130px;
+        margin:2px 0;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Architects Daughter', cursive;
+        letter-spacing: 2px;
+        border-radius: 8px;
+    }
+    .profile_box_image{
+        top: 25%;
+    }
+    .profile_box_image img{
+        top: 20%;
+        width: 180px;
+        height: 180px;
+        border: 6px solid white;
+        border-radius: 90px;
+        background-color: transparent;
+    }
+    .heading{
+        width: 300px;
+        padding: 1px;
+        border: 2px solid black;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        display: block;
+        margin:0 auto;
+    }
+    .education{
+        height: 300px;
+        margin:30px;
+    }
+    .edu_heading{
+        font-size: 20px;
+        font-weight: 800;
+        padding: 5px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .school{
+        font-size: 16px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        padding: 0 10px;
+    }
+    .year{
+        font-size: 16px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        padding:10px;
+    }
+    .email_button{
+        left: 35%;
+    }
+    .details ul{
+        display: flex;
+        justify-content: center;
+    }
+    .laptop {
+        width: 1200px;
+        height: 500px;
+        margin:0px 50px;
+    }
+    .laptop img{
+        width:1200px;
+        height: 500px;
+        object-fit: cover;
+        object-position: 50% 73%;
+    }
+    .code {
+        width: 1200px;
+        height: 400px;
+        margin:0px 40px;
+    }
+    .tech ul li{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+    }
+    .code img{
+        width: 1200px;
+        height: 400px;
+        object-fit: cover;
+        object-position: 50% 73%;
+    }
+    .languages ul li a{
+        font-family: 'Kavivanar', cursive;
+    }
+    .languages ul li a:first-child{
+        font-size: 30px;
+        font-weight: 400;
+        font-family: 'Kavivanar', cursive;
+    }
+    .languages ul li :last-child{
+        font-size: 30px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+    }
 }
