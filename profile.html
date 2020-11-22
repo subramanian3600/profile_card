@@ -6,9 +6,12 @@
     <title>PROFILE</title>
     <link rel="stylesheet" href="profile_style.css">
     <link rel="icon" href="img/subu_crop.png">
-    <script src="profile_script.js">
+    <script src="profile_script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    </script>
+     
+
+    
 </head>
 <body>
     <header>
@@ -71,7 +74,7 @@
                         <img src="img/lap.jpg" alt="laptop">
                         <span>Photo by <a href="https://unsplash.com/@dillonjshook?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Dillon Shook</a> on <a href="https://unsplash.com/s/photos/laptop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>    
                     </div><br><br>
-                    <div class="education" id="education">
+                    <div  data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" data-aos-mirror="true" class="education" id="education">
                         <label for="education" class="heading">Education</label><br>
                         <p class="edu_heading">Graduation:</p>
                         <P class="school">Rajalakshmi Institute of Technology</P>
@@ -84,6 +87,7 @@
                         <p class="year">2014-2015</p>
                     </div><br><br>
                     <br>
+                    <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-mirror="true">
                     <label class="heading">Tools & Technology</label><br>
                     <section id="tools_tech">
                         <div>
@@ -93,6 +97,7 @@
                         <img src="svg/juptericons.svg" alt="jupyter">
                         </div><br>
                     </section>
+                    
                     <div class="tech">
                         <ul>
                             <li>Data Science</li>
@@ -100,17 +105,19 @@
                             <li>Google Sheets</li>
                             <li>Google Docs</li>
                         </ul>
-                    </div><br>
+                    </div><br></div>
                     <div class="code">
                     <img src="img/code_img.jpg" alt="Coding vscode image">
                     <span>Photo by <a href="https://unsplash.com/@ilyapavlov?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ilya Pavlov</a> on <a href="https://unsplash.com/s/photos/technology?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
                     </div><br><br>
+                    <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-mirror="true">
                     <label for="skills" class="heading">Skills</label><br>
                     <section id="skills">
                         <img src="svg/pythonicons.svg" alt="python">
                         <img src="svg/htmlicons.svg" alt="HTML5">
                         <img src="svg/cssicons.svg" alt="CSS3">
-                    </section><br>
+                    </section><br></div>
+                    <div data-aos="fade-in" data-aos-delay="100" data-aos-duration="1000" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-mirror="true">
                     <label class="heading">Languages</label><br>
                     <section class="lang">
                         <div class="languages">
@@ -120,7 +127,8 @@
                             </ul>
                         </div><br>
 
-                    </section>  
+                    </section>
+                    </div> 
                 </div>
 
 
@@ -128,6 +136,10 @@
             </div>
         </section>
     </header>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
 </body>
 </html>
