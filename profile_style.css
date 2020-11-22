@@ -66,17 +66,19 @@ html{
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
     font-weight: 500;
 }
-.audio_btn{
-    position: absolute;
-    top:5px;
-    background-color: rgb(241, 11, 11);
+.audio_btn button{
+    top: 5px;
+    right: 10px;
     width: 20px;
     height: 20px;
-    border-radius: 10px;
-    right: 5px;
+    background-color: #fff;
+    border-radius: 3px;
+    position: absolute;
 }
-.stop_text_none{
-    color: transparent;
+.audio_btn img{
+    width: 15px;
+    height: 15px;
+    margin:0.5px;
 }
 .container{
     margin: 0px 20px;
@@ -116,7 +118,7 @@ html{
 }
 .profile_box_image{
     position: absolute;
-    top: 25%;
+    top: 28%;
     left: 60%;
     
 }

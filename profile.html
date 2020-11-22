@@ -23,17 +23,26 @@
             <script type="text/javascript">
                 function stop(){
                     let audio=document.querySelector('#myAudio');
-                    let btn=document.querySelector('#stop_text');
-                    let button=document.querySelector('.audio_btn');
+                    let pause=document.querySelector('.pause');
+                    let play=document.querySelector('.play');
                     audio.pause();
-                    alert("audio stopped");
-                    btn.style.display='none';
-                    button.style.display='none';
+                    pause.style.display='none';
+                    play.style.display='block';
+                }
+                function play(){
+                    let audio=document.querySelector('#myAudio');
+                    let pause=document.querySelector('.pause');
+                    let play=document.querySelector('.play');
+                    audio.play();
+                    play.style.display='none';
+                    pause.style.display='block';  
                 }
             </script>
-            <audio src="ammil.mp3" muted volume="0.5" autoplay="true" loop id="myAudio"></audio>
-            <p id="stop_text" style= 'color: rgb(38, 96, 150); position:absolute; top: 8px ; display:block ; right: 30px; font-family:monospace'>To stop bg music</p>
-            <button type="button" class="audio_btn" onclick="stop()"></button>
+            <audio src="ammil.mp3"  volume="0.5" autoplay="true" loop id="myAudio"></audio>
+            <div class="audio_btn">
+            <button onclick="stop()" class="pause"><img src="svg/pauseicon.svg" alt="pause" ></button>
+            <button onclick="play()" class="play""><img src="svg/playicon.svg" alt="play" ></button>
+            </div>
             <div class="back_to_index">
             <a class="back_to_index_link" href="index.html"><- Back to Home page</a><br><br>
             </div>
