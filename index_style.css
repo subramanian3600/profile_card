@@ -101,4 +101,110 @@
     font-family: 'Sansita Swashed', cursive;
 }
 
+@media(max-width:380px){
+    #greet{
+        font-size: 16px; 
+    }
+    .profile_background h3{
+        font-size: 20px;
+    }
+    .profile_img img{
+        height: 280px;
+    }
+    .profile{
+        top:75%;
+    }
+    .social_media ul li a{
+        color: white;
+        padding: 4px;
+        font-size:12px;
+        margin:0px;
+    }
+    
+}
+@media (min-width:720px){
+    #greet{
+        font-size: 25px; 
+    }
+    .profile_background h3{
+        font-size: 35px;
+    }
+    .profile_img h4{
+        position: absolute;
+        top: 18%;
+        left:35%;
+        font-size: 2rem;
+        font-family: 'Comfortaa', cursive;
+    }
+    .profile_img img{
+        position: absolute;
+        top: 23%;
+        border-radius:50px;
+        left: 23%;
+        width: 400px;
+        height: 500px;
+    }
+    .profile{
+        top:75%;
+        width: 100px;
+        height: 40px;
+        left: 45%;
+    }
+    .social_media{
+        position: absolute;
+        top: 85%;
+        left: 20%;
+    }
+    .social_media ul li a{
+        color: white;
+        padding:8px;
+        font-size:20px;
+        margin:0px;
+    }
+}
+@media (min-width:1200px){
+    .profile_background h3{
+        font-size: 40px;
+    }
+    #greet{
+        top: 10%;
+        font-size: 30px; 
+    }
+    .profile_img {
+        position: absolute;
+        top: 23%;
+        border-radius:200px;
+        left: 30%;
+        width: 400px;
+        height: 400px;
+        background-image: url(img/subramanian.jpg);
+        background-size: cover;    
+    }
+    .profile_img h4{
+        position: absolute;
+        top:-15%;
+        left:28%;
+        font-size: 2rem;
+        font-family: 'Comfortaa', cursive;
+    }
+    .profile_img img{
+        display: none;
+    }
+    .profile{
+        top:110%;
+        width: 100px;
+        height: 40px;
+        left: 40%;
+    }
+    .social_media
+    {
+        top: 80%;
+        left: 28%;
+
+    }
+    .social_media ul li a{
+        font-size:25px;
+    }
+
+}
 
