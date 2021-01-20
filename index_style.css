@@ -35,7 +35,7 @@
     margin: 0;
 }
 .profile_background{
-    background-color:rgb(48, 40, 40);
+    background-color:rgb(255, 255, 255);
     height: 100vh;
     width: 100%;
     color: #fff;
@@ -47,6 +47,7 @@
     font-family: 'Sansita Swashed', cursive;
     font-weight: 200;
     font-size: 25px;
+    color: black;
 }
 #greet{
     position: absolute;
@@ -54,6 +55,7 @@
     margin: 20px;
     font-family: 'Comfortaa', cursive;
     font-weight: 500;
+    color: black;
     font-size: 20px; 
 }
 .profile_img h4{
@@ -92,11 +94,11 @@
     display: contents;
 }
 .social_media ul li a{
-    color: white;
+    color: black;
     padding: 6px;
     margin:2px;
     text-decoration: none;
-    border: white 1px solid;
+    border: black 1px solid;
     border-radius: 10px;
     font-family: 'Sansita Swashed', cursive;
 }
@@ -115,14 +117,14 @@
         top:75%;
     }
     .social_media ul li a{
-        color: white;
+        color: black;
         padding: 4px;
         font-size:12px;
         margin:0px;
     }
     
 }
-@media (min-width:720px){
+@media (min-width:768px){
     #greet{
         font-size: 25px; 
     }
@@ -156,7 +158,7 @@
         left: 20%;
     }
     .social_media ul li a{
-        color: white;
+        color: black;
         padding:8px;
         font-size:20px;
         margin:0px;
@@ -164,11 +166,11 @@
 }
 @media (min-width:1200px){
     .profile_background h3{
-        font-size: 40px;
+        font-size: 30px;
     }
     #greet{
         top: 10%;
-        font-size: 30px; 
+        font-size: 25px; 
     }
     .profile_img {
         position: absolute;
@@ -182,25 +184,31 @@
     }
     .profile_img h4{
         position: absolute;
-        top:-15%;
-        left:28%;
-        font-size: 2rem;
+        top:-20%;
+        left:40%;
+        font-size: 2.8rem;
         font-family: 'Comfortaa', cursive;
     }
     .profile_img img{
         display: none;
     }
     .profile{
-        top:110%;
-        width: 100px;
-        height: 40px;
-        left: 40%;
+        top:100%;
+        width: 150px;
+        height:45px;
+        left:138%;
     }
     .social_media
     {
-        top: 80%;
-        left: 28%;
+        top: 30%;
+        left: 70%;
 
+    }
+    .social_media ul li{
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
     }
     .social_media ul li a{
         font-size:25px;
